@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Actividad 1.5</title>
+</head>
+<body background="fondo.jpg">
+    <form class="form-register">
+        <h4>Formulario CBTIS 229.</h4>
+        <input class="controls" id="usuario" type="text" name="usuario" placeholder="Escribe tu nombre...">
+        <div class="controls">
+            <label for="ciudad">Ciudad: </label>
+            <select name="ciudad">
+                <option value="TE">Tehuacán.</option>
+                <option value="SL">San Lorenzo.</option>
+                <option value="GC">San Gabriel Chilac.</option>
+                <option value="A">Ajalpan.</option>
+                <option value="" selected="selected">Selecciona tu ciudad</option>
+            </select>
+        </div>
+        <div class="controls">Talleres: <br>
+            <input type="checkbox" id="deportes" name="talleres" value="deportes">
+            <label for="deportes">Deportes</label><br>
+            <input type="checkbox" id="muscica" name="talleres" value="musica">
+            <label for="coches">Musica</label><br>
+            <input type="checkbox" id="dibujo" name="talleres" value="dibujo">
+            <label for="musica">Dibujo</label><br>
+        </div>
+        <div class="controls">Sexo: <br>
+            <input type="radio" id="masculino" name="sexo" value="masculino">
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" id="femenino" name="sexo" value="femenino">
+            <label for="femenino">Femenino</label><br>
+        </div>
+        <input class="botons" type="submit" name="submit" value="Enviar informacion">
+        <input class="botons" type="reset" name="reset" value="Reset">
+        <!--Estos botones no harán nada debido a que no existe el metodo 
+        "value" para cada uno-->
+    </form>
+</body>
+</html>
